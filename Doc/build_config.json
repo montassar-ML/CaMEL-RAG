@@ -1,0 +1,9 @@
+{
+  "csv_path": "/content/my_doc.csv",
+  "csv_sha256": "82f86e326f932a629275e92404872b475da3af7d610c01fe785a3f6938ae612e",
+  "text_col": "descriptor",
+  "id_col": "id",
+  "emb_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "num_docs": 1500,
+  "faiss_metric": "inner_product_normalized_as_cosine"
+}
