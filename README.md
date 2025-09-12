@@ -6,6 +6,7 @@ It uses a CSV file of domain documents, creates a vector store (`FAISS` + `Sente
 ---
 
 ## Repository Structure
+```
 ├── CaMEL-RAG.ipynb # Main notebook (build, query, and test RAG pipeline)
 ├── doc/ # Stores FAISS index, embeddings, ids, metadata, config
 │ ├── index.faiss
@@ -14,7 +15,7 @@ It uses a CSV file of domain documents, creates a vector store (`FAISS` + `Sente
 │ ├── metadata.json
 │ └── build_config.json
 └── README.md
-
+```
 
 ---
 
