@@ -1,3 +1,5 @@
+![Workflow](./assets/workflow.jpg)
+
 # CaMEL-RAG
 
 A lightweight **Retrieval-Augmented Generation (RAG)** framework built in Python. This framework has been developed for the `2025 LLM Hackathon for Applications in Materials Science & Chemistry` by the team `code4catlysis-KFUPM`.
@@ -26,12 +28,12 @@ It uses a CSV file of domain documents, creates a vector store (`FAISS` + `Sente
 - **LLM Backend:** Calls the **OpenAI Chat API** (`gpt-4.1-mini` by default) for grounded answer generation.
 - **Context Injection:** Builds prompts that cite sources with `[#doc_id]` tags.
 - **Evaluation Ready:** Easy to test with seen/unseen queries.
-
 ---
 ## Performance
 
 In this framework, we hace used `gpt-4.1-mini` as the deafualt LLM. Any model can be used to generate the response based on the given query and the context retrieved from the vector. </br>
 With the default model, we have achieved a near perfect result. </br>
+
 ---
 
 ![performance plot](./assets/scatter_plot.png)
