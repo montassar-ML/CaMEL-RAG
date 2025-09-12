@@ -28,7 +28,15 @@ It uses a CSV file of domain documents, creates a vector store (`FAISS` + `Sente
 - **Evaluation Ready:** Easy to test with seen/unseen queries.
 
 ---
+## Performance
 
+In this framework, we hace used `gpt-4.1-mini` as the deafualt LLM. Any model can be used to generate the response based on the given query and the context retrieved from the vector. </br>
+With the default model, we have achieved a near perfect result. </br>
+---
+
+![performance plot](./assets/scatter_plot.png)
+
+---
 ## ⚙️ Setup
 
 ### 1. Clone the repository
