@@ -1,4 +1,5 @@
-![Workflow](./assets/workflow.jpg)
+
+<img width="1280" height="720" alt="Code4Catalysis" src="https://github.com/user-attachments/assets/c3f389c1-65ff-4b29-a35e-eab9d318c91d" />
 
 # CaMEL-RAG
 
